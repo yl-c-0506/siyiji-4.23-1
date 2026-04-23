@@ -1,0 +1,9 @@
+notification:
+  enabled: true
+  smtp_host: smtp.example.com
+  smtp_port: 587
+  smtp_user: your-email@example.com
+  smtp_password: ""
+  smtp_from: your-email@example.com
+  smtp_to:
+    - receiver@example.com

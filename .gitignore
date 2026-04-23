@@ -1,30 +1,56 @@
-# Local state and generated artifacts
-.claude/
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
 .pytest_cache/
+.pytest-tmp/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+.venv*/
+
+# Local editor and tooling state
 .tools/
-**/.git/
-**/.pytest_cache/
-**/.pytest-tmp/
-**/.venv/
-**/.venv*/
-**/__pycache__/
-**/build/
-**/dist/
-**/node_modules/
+.vscode/*
+!.vscode/settings.json
+
+# Local runtime data, logs, and secrets
 *.db
 *.sqlite3
 *.log
-*.exe
-*.apk
-*.dex
+config.yaml
+automation-hub/config.yaml
+automation-hub/.admin_token
+data/
+automation-hub/data/
+思忆集app/data/
+思忆集app/.vscode/
+思忆集app/安卓端app/source/.gradle/
+思忆集app/安卓端app/source/**/build/
+思忆集app/安卓端app/source/local.properties
 
-# Local configs and data
-思忆集/config.yaml
-思忆集/automation-hub/config.yaml
-思忆集/automation-hub/.admin_token
-思忆集/data/
-思忆集/automation-hub/data/
-思忆集/思忆集app/data/
-思忆集/思忆集app/安卓端app/source/local.properties
-
-device-current-screen.png
+# Local-only app folders and legacy snapshots
+七奈桌宠软件/
+小问桌宠文件/
+思忆集项目1，初始功能完善 - 副本 (3)/
