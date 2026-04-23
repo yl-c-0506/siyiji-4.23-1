@@ -1,0 +1,30 @@
+# Local state and generated artifacts
+.claude/
+.pytest_cache/
+.tools/
+**/.git/
+**/.pytest_cache/
+**/.pytest-tmp/
+**/.venv/
+**/.venv*/
+**/__pycache__/
+**/build/
+**/dist/
+**/node_modules/
+*.db
+*.sqlite3
+*.log
+*.exe
+*.apk
+*.dex
+
+# Local configs and data
+思忆集/config.yaml
+思忆集/automation-hub/config.yaml
+思忆集/automation-hub/.admin_token
+思忆集/data/
+思忆集/automation-hub/data/
+思忆集/思忆集app/data/
+思忆集/思忆集app/安卓端app/source/local.properties
+
+device-current-screen.png
